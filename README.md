@@ -1,18 +1,7 @@
 # eslint-plugin-import-monorepo
 This ESLint plugin enforces the rules for pretty imports inside the monorepo workspaces.
 
-Allows you to have pretty imports inside the monorepo packages
-
-**Example #1:**
-Imports in scope of the same package. (`import-monorepo/smart-workspace-import`)
-This import `import module from '@current/package/long/path/to/moduleName';`  
-will be replaced by `import module from '../moduleName';`  
-if folders nesting difference will be less or equal to `maxUp` property size. 
-
-**Example #2:** Imports across all packages (`import-monorepo/no-src-or-build`)  
-Disallow to use `src` or `build` folders inside the import paths.  
-Imports like `import module from '@package/src/moduleName';` or `import module from '@package/build/moduleName';`    
-will be replaced by `import module from '@package/moduleName';` 
+Allows you to have pretty imports inside the monorepo packages.
 
 
 ## Installation and usage
@@ -46,6 +35,19 @@ Then add it to your ESLint configuration:
   }
 }
 ```
+
+
+**Example #1:**
+Imports in scope of the same package. (`import-monorepo/smart-workspace-import`)
+This import `import module from '@current/package/long/path/to/moduleName';`  
+will be replaced by `import module from '../moduleName';`  
+if folders nesting difference will be less or equal to `maxUp` property size. 
+
+**Example #2:** Imports across all packages (`import-monorepo/no-src-or-build`)  
+Disallow to use `src` or `build` folders inside the import paths.  
+Imports like `import module from '@package/src/moduleName';` or `import module from '@package/build/moduleName';`    
+will be replaced by `import module from '@package/moduleName';` 
+
 
 ## License
 
