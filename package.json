@@ -1,0 +1,15 @@
+{
+  "name": "eslint-plugin-import-monorepo",
+  "version": "1.0.0",
+  "description": "This ESLint plugin enforces the rules for pretty imports inside the monorepo workspaces.",
+  "dependencies": {
+    "find-up": "^4.1.0",
+    "find-yarn-workspace-root": "^1.2.1",
+    "get-monorepo-packages": "^1.2.0",
+    "lodash": "^4.17.15"
+  },
+  "main": "src/index.js",
+  "repository": "git@github.com:igogo5yo/eslint-plugin-import-monorepo.git",
+  "author": "igogo5yo <skliar.ihor@gmail.com>",
+  "license": "MIT"
+}
