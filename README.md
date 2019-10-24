@@ -38,7 +38,7 @@ Then add it to your ESLint configuration:
 
 
 **Example #1:**
-Imports in scope of the same package. (`import-monorepo/smart-workspace-import`)
+Imports in scope of the same package. (`import-monorepo/smart-workspace-import`)  
 This import `import module from '@current/package/long/path/to/moduleName';`  
 will be replaced by `import module from '../moduleName';`  
 if folders nesting difference will be less or equal to `maxUp` property size. 
