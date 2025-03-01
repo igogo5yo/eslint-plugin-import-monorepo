@@ -2,6 +2,9 @@
 [![NPM](https://img.shields.io/npm/v/eslint-plugin-import-monorepo.svg "NPM package version")](https://www.npmjs.com/package/eslint-plugin-import-monorepo)
 [![NPM](https://img.shields.io/npm/dt/eslint-plugin-import-monorepo.svg "NPM package downloads")](https://www.npmjs.com/package/eslint-plugin-import-monorepo)
 
+
+[:coffee: Sponsor me :heart:](https://github.com/sponsors/igogo5yo)
+
 This ESLint plugin enforces the rules for pretty imports inside the monorepo workspaces.
 
 Allows you to have pretty imports inside the monorepo packages.
